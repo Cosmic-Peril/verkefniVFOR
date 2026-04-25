@@ -1,10 +1,3 @@
-/* Error: Expected newline.
- *   ,
- * 6 | body {
- *   |      ^
- *   '
- *   public\sass\style.sass 6:6  root stylesheet */
-
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
       "Droid Sans Mono", monospace, monospace;
