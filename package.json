@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon app.js --watch routes --watch views --watch public --ext js,ejs,css",
+    "dev": "nodemon app.js --watch routes --watch views --watch public --ext js,ejs,css,scss",
     "start": "node app.js",
     "sass": "sass public/scss/style.scss public/css/style.css --watch"
   },
