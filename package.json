@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon app.js --watch routes --watch views --watch public --ext js,ejs,css,scss",
+    "dev": "nodemon app.js --watch routes --watch views --watch public --ext js,ejs,css",
     "start": "node app.js",
-    "sass": "sass public/scss/style.scss public/css/style.css --watch"
+    "sass": "sass public/scss/style.scss public/css/style.css"
   },
   "keywords": [],
   "author": "",

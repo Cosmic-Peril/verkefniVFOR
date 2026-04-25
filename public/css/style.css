@@ -1,10 +1,54 @@
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected newline.\a   \2577 \a 6 \2502  body {\d\a   \2502       ^\a   \2575 \a   public\\sass\\style.sass 6:6  root stylesheet";
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f6ff;
+  color: #1a202c;
+  text-align: center;
 }
+
+nav {
+  background-color: #2b6cb0;
+  padding: 15px;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1, h2 {
+  color: #2b6cb0;
+}
+
+.container {
+  background: white;
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 700px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  margin-top: 15px;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  background: #63b3ed;
+  color: white;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
