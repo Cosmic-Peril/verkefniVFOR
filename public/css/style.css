@@ -1,15 +1,17 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f4f4f4;
-}
+/* Error: Expected newline.
+ *   ,
+ * 6 | body {
+ *   |      ^
+ *   '
+ *   public\sass\style.sass 6:6  root stylesheet */
 
-nav a {
-    margin: 10px;
-    text-decoration: none;
-    color: blue;
-}
-
-img {
-    margin-top: 20px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Expected newline.\a   \2577 \a 6 \2502  body {\d\a   \2502       ^\a   \2575 \a   public\\sass\\style.sass 6:6  root stylesheet";
 }
